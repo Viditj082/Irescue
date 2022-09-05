@@ -54,7 +54,6 @@ body{
 
 }
 
-
 .nav-link:hover{
     color:#cccccc;
 }
@@ -63,9 +62,8 @@ body{
     left: 0;width: 100%;
 }
 
-.navbar-brand>img{
-    width: 70px;
-    aspect-ratio: 1;
+.navbar-brand{
+  font-size: 3rem;
 }
 
 .navbar-nav{
@@ -559,6 +557,9 @@ height:150px;
 border-radius: 50%;
 background: #00000050;
 
+}
+.navbar-brand{
+  font-size: 2rem;
 }
 
 
