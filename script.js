@@ -41,7 +41,7 @@
 
          button.addEventListener('click',()=>{
              if(clickcount++%2==0)
-           navbar.style.background='#00000099'
+           navbar.style.background='#000000'
            else { 
              if(pageYOffset==0)
              navbar.style.background='transparent'
@@ -51,7 +51,7 @@
 
          window.addEventListener('scroll',()=>{
              if(pageYOffset>0)
-             navbar.style.background='#00000099'
+             navbar.style.background='#000000'
              else  {
                if(clickcount%2==0)
                navbar.style.background='transparent'
@@ -96,3 +96,4 @@
 
 
      
+       
