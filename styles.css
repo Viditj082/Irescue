@@ -109,7 +109,6 @@ grid-template-areas: "con img ";
 
 .intro-image{
 width: 250px;
-height: 300px;
 height: 100%;
 background: url('./images/logo3_prev_ui.png');
 background-repeat: no-repeat;
@@ -624,7 +623,6 @@ transform: rotateY(180deg);
   right: 0;
   z-index: -2;
   background:url('./images/pexels-pixabay-221284.jpg');
-  background-attachment: fixed;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -634,12 +632,12 @@ transform: rotateY(180deg);
   
   .typing-demo {
     width: 22ch;
-    animation: typing 4s steps(22), blink .5s step-end infinite alternate;
+    animation: typing 4s steps(25), blink .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid;
     font-family: monospace;
-    font-size: 2em;
+    font-size: 1.6em;
   }
   
   @keyframes typing {
@@ -664,30 +662,4 @@ transform: rotateY(180deg);
     height:64x;
     width:64px;
   }
-  #image2{
-    position:absolute;
-    top:45px;
-    left : 301px;
-    height:64x;
-    width:64px;
-  }
-  #gate {
-    background-image: url("http://5starsdesign.be/bg2.png");
-    position: absolute;
-    height: 50px;
-    width: 100%;
-    left: 0px;
-    top: 130px;
-    text-align: center;
-    font-family: "Arial Black", Gadget, sans-serif;
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 50px;
-    background-color:yellow;
-    text-transform: uppercase;
-    background-size: 50px 50px;
-    color: white;
-    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
-  }
-
   

@@ -5,12 +5,12 @@
 
          let t1=gsap.timeline()
 
-         t1.from('.intro-content>h1',{duartion:1,x:-200,opacity:0}).to('.intro-content>h1',{duration:1,x:0,opacity:1}).from('.intro-content>p',{duartion:1,x:-1000},'-=0.5')
+         t1.from('.intro-content>p',{duartion:1,x:-1000},'-=0.5')
          .to('.intro-content>p',{duartion:1,x:0}).from('.intro-content>a',{duration:1,x:-1000},'-=0.8').to('.intro-content>a',{duration:1,x:0})
          
          //Gsap
 
-         let clickcount=0
+         let clickcount=0;
          
          const body=document.body
 
@@ -41,7 +41,7 @@
 
          button.addEventListener('click',()=>{
              if(clickcount++%2==0)
-           navbar.style.background='#000000'
+           navbar.style.background='#00000099'
            else { 
              if(pageYOffset==0)
              navbar.style.background='transparent'
@@ -51,7 +51,7 @@
 
          window.addEventListener('scroll',()=>{
              if(pageYOffset>0)
-             navbar.style.background='#000000'
+             navbar.style.background='#00000099'
              else  {
                if(clickcount%2==0)
                navbar.style.background='transparent'
