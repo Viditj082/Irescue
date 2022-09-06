@@ -1,0 +1,22 @@
+{
+  "name": "irescuefinalwebsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Samarthpatrikar/irescuefinalwebsite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Samarthpatrikar/irescuefinalwebsite/issues"
+  },
+  "homepage": "https://github.com/Samarthpatrikar/irescuefinalwebsite#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}

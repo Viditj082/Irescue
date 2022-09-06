@@ -26,11 +26,10 @@ body{
     grid-template-columns: 5fr 8fr;
     transition: 0.3s;
     backdrop-filter: blur(1px);
-    position:sticky;
     z-index: 1;
     top: 0;
     left: 0;
-    
+    background: #082049;
 }
 
 .nav-link{
@@ -109,7 +108,7 @@ grid-template-areas: "con img ";
 width: 350px;
 height: 100%;
 border-bottom: 40px;
-background: url('./images/IMG_2519.PNG');
+background: url('./public/images/IMG_2519.PNG');
 background-repeat: no-repeat;
 background-size: 100%;
 grid-area: img;
@@ -473,7 +472,7 @@ background-size: cover;
   left: 0;
   right: 0;
   z-index: -2;
-  background:url('./images/pexels-pixabay-221284.jpg');
+  background:url('./public/images/pexels-pixabay-221284.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
